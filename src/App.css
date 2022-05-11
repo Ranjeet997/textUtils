@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+  display: flex;
+}
+.button1{
+  background-color: rgb(5, 5, 63);
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 8px;
+}
+.button2{
+  background-color: rgb(6, 58, 63);
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 8px;
+}
+.button3{
+  background-color: rgb(68, 5, 5);
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 8px;
+
+}
+
+.according-button::after{
+  filter: invert(1);
+}
